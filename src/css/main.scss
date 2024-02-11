@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 98, 98);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.records {
+    width: 20rem;
+    margin: 2rem;
+}
+
+.records .items div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.records .items h4 {
+    text-decoration: underline;
+
+}
+
+input {
+    margin: 0.5rem 0;
+    width: 20rem;
+}
+
+.addBtn {
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20rem;
+    padding: 10px 0;
+
+}
+
+.removeBtn {
+    color: red;
+    font-weight: bold;
+    border: none;
+    padding: 0 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
